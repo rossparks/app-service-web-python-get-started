@@ -15,7 +15,7 @@ def home(request):
         'app/index.html',
         context_instance = RequestContext(request,
         {
-            'title':'Home Page',
+            'title':'Test Home Page',
             'year':datetime.now().year,
         })
     )
